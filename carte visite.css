@@ -1,0 +1,96 @@
+/*
+Carte de visite 
+---------------
+
+par Auduc frederic.
+*/
+
+h1
+{
+	/* Le titre h1 sera en rouge, centré, taille police 4em, gras et italique ! */
+	color : red; 
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h2
+{
+	/* Le titre h2 sera en jaune, centré, taille police 1.6em, gras et sans style particulier ! */
+	color: yellow; 
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bold;
+	font-style: normal;
+	
+}
+
+.salutations
+
+	/* Les salutations seront en fuchia, centré, taille police 2em, et italique ! */
+{
+	color: fuchsia;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: italic;
+	
+}
+
+img
+{
+	/* L'image de l'avatar se placera à droite en dessous du titre, aligné avec l'état civil ! 
+	Possibilité d'afficher l'intitulé de l'avatar !*/
+	float: right;
+}
+
+
+h3
+{
+	/* Le titre h3 sera en bleu, centré, avec une taille de police 2.2em !*/
+	color: blue;
+	text-align: center;
+	font-size: 2.2em;
+	
+}
+
+h4
+{
+	/* Le titre h4 sera en bleu, centré, avec une taille de police 2.2em !*/
+	color: blue;
+	text-align: center;
+	font-size: 2.2em;
+	
+}
+
+body
+{
+	/* L'image couvrira l'ensemble de la page, sera fixe et ne se répétera pas !  */
+	background-image: url("https://github.com/Ikarus71-pixel/auducfvisitcard/blob/main/board-2398309_640.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+p
+{
+	/* Le texte des paragraphes seront en jaune, taille de police 1.4em, gras et oblique ! */ 
+	color: yellow;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+li
+{
+	/* Le texte des listes seront en rouge, taille de police 2.3em et en italique ! */
+	color: red;
+	font-size: 2.3em;
+	font-style: italic;
+	
+}
+
+
+/* Le contact par mail, en bas de page, permet d'accéder à la boite mail pour m'envoyer un courriel, à l'aide du lien ! */
+	
